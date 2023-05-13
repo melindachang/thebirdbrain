@@ -1,0 +1,72 @@
+
+@font-face
+  font-family: "Good Sans"
+  src: url('/fonts/GoodSans-Black.otf')
+  font-weight: 900
+@font-face
+  font-family: "Good Sans"
+  src: url('/fonts/GoodSans-Bold.otf')
+  font-weight: 700
+
+@font-face
+  font-family: "Good Sans"
+  src: url('/fonts/GoodSans-Regular.otf')
+  font-weight: 400
+
+.sections
+  & > *:not(:first-child)
+    border-bottom: 1px solid black
+
+.section-split
+  display: flex
+  & > *
+    width: 50%
+
+  & > *:not(:first-child)
+    border-left: 1px solid black
+
+  &-auto
+    & > *
+      padding: 0 2rem
+      display: flex
+      justify-content: center
+      align-items: center
+      height: auto
+
+.section
+  padding: 4.5rem
+  &.image
+    .caption
+      margin: 2rem 0 0 0
+      font-size: 1.4rem
+      &-xl
+        margin: 2rem 0
+        text-transform: uppercase
+        font-size: 3rem
+
+    img
+      width: 100%
+      height: auto
+
+  &.prose
+    &.paragraph
+      p
+        margin: 1.6rem 0
+        font-size: 1.6rem
+        line-height: 2.2
+
+      a
+        color: black
+
+      ul
+        margin: 1.6rem 0
+        li
+          margin: 1.6rem 0
+          font-size: 1.6rem
+          line-height: 2.2
+
+$accent-red: #ed672c
+
+::selection
+  background: $accent-red
+  color: black
