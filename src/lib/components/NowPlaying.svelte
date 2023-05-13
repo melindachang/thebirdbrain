@@ -40,21 +40,13 @@
 		const isPlaying = song.is_playing;
 		const title = song.item.name;
 		const artist = song.item.artists.map((_artist) => _artist.name).join(', ');
-		const album = song.item.album.name;
-		const albumImageUrl = song.item.album.images[0].url;
 		const songUrl = song.item.external_urls.spotify;
-		const duration = song.item.duration_ms;
-		const progress = song.progress_ms;
 
 		return {
-			album,
-			albumImageUrl,
 			artist,
 			isPlaying,
 			songUrl,
 			title,
-			duration,
-			progress
 		};
 	};
 </script>

@@ -1,4 +1,9 @@
-<div class="section-split-auto">
+<script>
+</script>
+
+
+
+<div class="section-split-auto inline-container">
 	<div class="menu-lg">
 		<ul>
 			<li><a href="/">Blog</a></li>
@@ -11,9 +16,12 @@
 <style lang="sass">
   @use '../../sass/variables'
   
+  .menu-sm
+    @media screen and ( min-width: variables.$breakpoint-lg )
+        display: none
+
   .menu-lg
     display: none
-    font-size: 1.4rem
     @media screen and ( min-width: variables.$breakpoint-lg )
         display: block
     ul
@@ -23,6 +31,7 @@
         li
             display: inline-block
             text-transform: uppercase
+            font-size: 1.2rem
             &:not(:last-child)
                 margin-right: 3rem
             a
