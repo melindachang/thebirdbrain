@@ -1,10 +1,10 @@
 <script>
-	export let author, date
+	export let author, date;
 </script>
 
 <div class="subheading-wrapper">
-  <span>Author: {author}</span>
-  <span>{date}</span>
+	<span>Author: {author}</span>
+	<span>{date}</span>
 </div>
 
 <style lang="sass">

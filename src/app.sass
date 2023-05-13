@@ -1,29 +1,26 @@
-
-@font-face
-  font-family: "Good Sans"
-  src: url('/fonts/GoodSans-Black.otf')
-  font-weight: 900
-@font-face
-  font-family: "Good Sans"
-  src: url('/fonts/GoodSans-Bold.otf')
-  font-weight: 700
-
-@font-face
-  font-family: "Good Sans"
-  src: url('/fonts/GoodSans-Regular.otf')
-  font-weight: 400
+@use 'sass/variables'
+@use 'sass/fonts'
 
 .sections
   & > *:not(:first-child)
-    border-bottom: 1px solid black
+    @media screen and ( min-width: variables.$breakpoint-lg )
+      border-bottom: 1px solid black
 
 .section-split
   display: flex
+  flex-direction: column
+  @media screen and ( min-width: variables.$breakpoint-lg )
+    flex-direction: row
   & > *
-    width: 50%
+    width: 100%
+    @media screen and ( min-width: variables.$breakpoint-lg )
+      width: 50%
 
   & > *:not(:first-child)
-    border-left: 1px solid black
+    // border-top: 1px solid black
+    @media screen and ( min-width: variables.$breakpoint-lg )
+      border-top: none
+      border-left: 1px solid black
 
   &-auto
     & > *
@@ -35,10 +32,17 @@
 
 .section
   padding: 4.5rem
+
+  &.empty
+    display: none
+    @media screen and ( min-width: variables.$breakpoint-lg )
+      display: block
+
   &.image
     .caption
       margin: 2rem 0 0 0
       font-size: 1.4rem
+      font-style: italic
       &-xl
         margin: 2rem 0
         text-transform: uppercase

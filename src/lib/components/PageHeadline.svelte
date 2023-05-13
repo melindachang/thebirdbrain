@@ -13,6 +13,8 @@
 </div>
 
 <style lang="sass">
+  @use '../../sass/variables'
+  
   .headline-wrapper
     padding: 4rem
     border-bottom: 1px solid black
@@ -29,7 +31,12 @@
     text-transform: uppercase
 
     &.lg
-      font-size: 9.6rem
+      font-size: 3.2rem
+      @media screen and ( min-width: variables.$breakpoint-lg )
+        font-size: 9.6rem
+
     &.md
       font-size: 4.8rem
+      
+
 </style>

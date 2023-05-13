@@ -2,6 +2,8 @@
 	import '../app.sass';
 
 	import { Svrollbar } from 'svrollbar';
+	import { navigating } from '$app/stores';
+
 	import Header from '../lib/components/Header.svelte';
 	import Footer from '../lib/components/Footer.svelte';
 </script>
@@ -14,16 +16,19 @@
 </main>
 
 <style lang="sass">
+@use '../sass/variables'
 
 :global(html)
   font-size: 62.5%
 
 :global(body)
   margin: 0 auto
-  width: 90vw
-  border-left: 1px solid black
-  border-right: 1px solid black
-  font-family: 'Good Sans', 'Helvetica', sans-serif
+
+  @media screen and ( min-width: variables.$breakpoint-xl )
+    width: 90vw
+    border-left: 1px solid black
+    border-right: 1px solid black
+  font-family: 'Good Sans', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
 
 :global(*)
   &, &::before, &::after

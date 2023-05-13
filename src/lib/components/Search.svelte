@@ -1,5 +1,4 @@
 <!-- <input type="text" placeholder="SEARCH" /> -->
-
 <style lang="sass">
   :root
     --color-placeholder: #000

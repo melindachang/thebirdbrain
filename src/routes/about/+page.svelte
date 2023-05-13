@@ -32,20 +32,24 @@
 				software. I write open-source JavaScript libraries, mostly. I also do amateur astronomy and
 				watch an unreasonable amount of movies.
 			</p>
-			<p>
-				<em>Favorite Bird: Chestnut-backed Chickadee!</em>
-			</p>
 		</div>
-		<div class="section image" />
+		<div class="section image">
+			<img
+				src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/302485951/1800"
+				alt="Chestnut-backed chickadee in a tree"
+				title="Source: eBird"
+			/>
+			<p class="caption">The chestnut-backed chickadee, my favorite bird!</p>
+		</div>
 	</div>
 	<div class="section-split">
-		<div class="section image" />
+		<div class="section empty" />
 		<div class="section prose paragraph">
 			<p>Here's a bit of additional info about this website and how I run it:</p>
 			<ul>
 				<li>
 					It's written in SvelteKit and deployed on Vercel. You can check out the repository <a
-						href="#">here</a
+						href="https://github.com/melindachang/thebirdbrain">here</a
 					>.
 				</li>
 				<li>

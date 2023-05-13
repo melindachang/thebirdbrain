@@ -1,24 +1,31 @@
 <script>
 	export let infographics;
-
 </script>
 
 <div class="grid">
 	{#each infographics as graphic}
 		<div class="grid-item">
 			<div class="content">
-        <div class="img"></div>
-				<span class="caption"><span class="date">{graphic.date} &mdash;</span> {graphic.title}</span>
+				<div class="img" />
+				<span class="caption"><span class="date">{graphic.date} &mdash;</span> {graphic.title}</span
+				>
 			</div>
 		</div>
 	{/each}
 </div>
 
 <style lang="sass">
+  @use '../../sass/variables'
+
   .grid
     display: grid
-    grid-template-columns: 1fr 1fr 1fr 1fr
     grid-gap: 1px
+    @media screen and ( min-width: variables.$breakpoint-md )
+      grid-template-columns: 1fr 1fr
+    @media screen and ( min-width: variables.$breakpoint-xl )
+      grid-template-columns: 1fr 1fr 1fr
+    @media screen and ( min-width: variables.$breakpoint-xxl )
+      grid-template-columns: 1fr 1fr 1fr 1fr
 
     .grid-item
       outline: 1px solid
@@ -35,4 +42,6 @@
         height: 0
         padding-bottom: 100%
         margin-bottom: 2rem
+
+
 </style>
