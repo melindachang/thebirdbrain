@@ -4,6 +4,9 @@
 
 
 <div class="section-split-auto inline-container">
+    <div class="menu-sm">
+        img
+    </div>
 	<div class="menu-lg">
 		<ul>
 			<li><a href="/">Blog</a></li>
@@ -31,7 +34,7 @@
         li
             display: inline-block
             text-transform: uppercase
-            font-size: 1.2rem
+            font-size: 1.4rem
             &:not(:last-child)
                 margin-right: 3rem
             a
