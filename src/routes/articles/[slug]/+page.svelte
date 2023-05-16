@@ -1,8 +1,8 @@
 <script>
 	export let data;
-	import PageHeadline from '../../../lib/components/PageHeadline.svelte';
-	import Banner from '../../../lib/components/Banner.svelte';
-	import Subheading from '../../../lib/components/Subheading.svelte';
+	import PageHeadline from '../@lib/components/PageHeadline.svelte';
+	import Banner from '../@lib/components/Banner.svelte';
+	import Subheading from '../@lib/components/Subheading.svelte';
 </script>
 
 <svelte:head>
@@ -13,7 +13,7 @@
 <article>
 	<PageHeadline headline={data.title} size="md" />
 	<Subheading author={data.author} date={data.date} />
-	<Banner src={data.image} />
+	<Banner src={data.image} source={data.source} source_url={data.source_url} />
 	<svelte:component this={data.content} />
 </article>
 

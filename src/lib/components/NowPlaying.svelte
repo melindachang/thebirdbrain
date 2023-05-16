@@ -46,7 +46,7 @@
 			artist,
 			isPlaying,
 			songUrl,
-			title,
+			title
 		};
 	};
 </script>

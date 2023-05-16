@@ -1,14 +1,13 @@
 <script>
-	import PageHeadline from '../../lib/components/PageHeadline.svelte';
+	import PageHeadline from '@lib/components/PageHeadline.svelte';
 </script>
 
 <svelte:head>
 	<title>About</title>
 	<meta
 		name="description"
-		content="Welcome to The Birdbrain! I'm a high school junior from California. This website is
-		part of a side project that I started to immerse myself in and better my understanding of
-		music history."
+		content="Welcome to The Birdbrain! I'm a 17-year-old high school student from California. This
+		website is part of a side project that I started to learn about birds."
 	/>
 </svelte:head>
 

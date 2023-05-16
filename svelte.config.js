@@ -18,7 +18,10 @@ const config = {
 	],
 	extensions: ['.svelte', '.svx'],
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		alias: {
+			'@lib/*': path.join(__dirname, './src/lib/*')
+		}
 	}
 };
 
