@@ -11,7 +11,7 @@
 </footer>
 
 <style lang="sass">
-  @use '../../sass/variables'
+  @use '@sass/variables'
   $background: #f4f4f4
 
   footer

@@ -1,8 +1,8 @@
 <script>
 	export let data;
-	import PageHeadline from '../@lib/components/PageHeadline.svelte';
-	import Banner from '../@lib/components/Banner.svelte';
-	import Subheading from '../@lib/components/Subheading.svelte';
+	import PageHeadline from '@lib/components/PageHeadline.svelte';
+	import Banner from '@lib/components/Banner.svelte';
+	import Subheading from '@lib/components/Subheading.svelte';
 </script>
 
 <svelte:head>

@@ -20,7 +20,8 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		alias: {
-			'@lib/*': path.join(__dirname, './src/lib/*')
+			'@lib/*': path.join(__dirname, './src/lib/*'),
+			'@sass/*': path.join(__dirname, './src/sass/*')
 		}
 	}
 };

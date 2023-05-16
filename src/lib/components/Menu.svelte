@@ -13,7 +13,7 @@
 </div>
 
 <style lang="sass">
-  @use '../../sass/variables'
+  @use '@sass/variables'
   
   .menu-sm
     @media screen and ( min-width: variables.$breakpoint-lg )

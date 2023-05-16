@@ -2,7 +2,6 @@
 	import '../app.sass';
 
 	import { Svrollbar } from 'svrollbar';
-	import { navigating } from '$app/stores';
 
 	import Header from '../lib/components/Header.svelte';
 	import Footer from '../lib/components/Footer.svelte';

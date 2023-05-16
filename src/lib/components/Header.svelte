@@ -29,7 +29,7 @@
 </div>
 
 <style lang="sass">
-    @use '../../sass/variables'
+    @use '@sass/variables'
     $accent-red: #ed672c
 
     lottie-player
