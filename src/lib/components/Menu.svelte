@@ -10,7 +10,7 @@
 	<div class="menu-lg">
 		<ul>
 			<li><a href="/">Blog</a></li>
-			<li><a href="/infographics">Infographics</a></li>
+			<!-- <li><a href="/infographics">Infographics</a></li> -->
 			<li><a href="/about">About</a></li>
 		</ul>
 	</div>

@@ -10,7 +10,7 @@
 		</h2>
 	</div>
 	<div class="section prose paragraph" style="border:none">
-		<p>{article.snippet}</p>
+		<p>{article.snippet} <br /><a href={`/articles/${article.slug}`}>Read More</a></p>
 	</div>
 </div>
 
