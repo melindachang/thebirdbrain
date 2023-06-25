@@ -15,7 +15,7 @@
 </div>
 
 <style lang="sass">
-  @use '@sass/variables'
+  @use '../../sass/variables'
 
   .grid
     display: grid

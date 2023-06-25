@@ -9,7 +9,7 @@
 	<title>The Birdbrain</title>
 	<meta
 		name="description"
-		content="The Birdbrain is a blog dedicated to the examination and appreciation of historical musicology. Learn about the artists, ideas, and cultures that make up the fabric of modern music!"
+		content="The Birdbrain is a blog dedicated to the examination and appreciation of all things birds!"
 	/>
 </svelte:head>
 

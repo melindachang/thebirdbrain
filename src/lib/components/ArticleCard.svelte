@@ -15,6 +15,12 @@
 </div>
 
 <style lang="sass">
+  @use '@sass/variables'
+
+  .prose
+    padding-top: 0
+    @media screen and ( min-width: variables.$breakpoint-lg )
+      padding-top: 4.5rem
 
   h2
     font-weight: 400

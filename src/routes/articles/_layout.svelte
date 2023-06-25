@@ -4,8 +4,11 @@
 	<slot />
 </div>
 
-<style>
-	.prose {
-		width: 60%;
-	}
+<style lang="sass">
+	@use '../../sass/_variables'
+
+	.prose
+		width: 100%
+		@media screen and ( min-width: variables.$breakpoint-lg )
+			width: 60%
 </style>

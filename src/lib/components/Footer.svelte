@@ -1,6 +1,6 @@
 <footer>
+	<span>Made with &#x2764; by Melinda Chang.</span>
 	<ul class="notices">
-		<li>Made with &#x2764; by Melinda Chang.</li>
 		<li>
 			<a href="http://reddit.com/u/reeltoreelhistory" rel="noreferrer" target="_blank">Reddit</a>
 		</li>
@@ -18,17 +18,28 @@
     padding: 2rem 4.5rem
     background: $background
     border-top: 1px solid black
+    font-size: 1.3rem
+    text-transform: uppercase
     @media screen and ( min-width: variables.$breakpoint-lg )
       border-top: none
+
+    
+    span
+      display: inline-block
+      margin: 0
+      @media screen and ( min-width: variables.$breakpoint-md )
+        margin: 0 4rem 0 0
+
     ul
+      display: inline-block
+      @media screen and ( min-width: variables.$breakpoint-md )
+        padding: 0
       list-style: none
       margin: 0
-      padding: 0
+      padding: 2rem 0 0 0
 
       li
-        font-size: 1.3rem
         display: inline-block
-        text-transform: uppercase
 
         a
           text-decoration: none

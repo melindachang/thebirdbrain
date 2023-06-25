@@ -39,8 +39,8 @@
 
     h1  
         text-transform: uppercase
-        font-size: 3.2rem
         font-weight: 900
+        white-space: nowrap
 
     .wrapper-header
         z-index: 20
@@ -50,15 +50,24 @@
             .search
               border-left: 1px solid black
               padding: 0
+              display: none
+              @media screen and ( min-width: variables.$breakpoint-lg )
+                display: flex
         .container-header
             border-bottom: 1px solid black
             display: flex
+            flex-direction: row
+            height: 7rem
 
             .logo
-                padding: 2rem
+                margin: 0 auto
                 background: $accent-red
                 text-decoration: none
                 color: black
+                display: flex
+                align-items: center
+                width: 50%
+                flex-grow: 1
 
                 h1
                     margin: 0
