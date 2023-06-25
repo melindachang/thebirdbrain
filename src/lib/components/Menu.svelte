@@ -9,12 +9,12 @@
 	<div class="line" class:active />
 </div>
 <div class="mobile-links" class:active>
-		<a href="/" on:click={handleClick}>Blog</a>
-		<!-- <a href="/infographics" on:click={handleClick}>Infographics</a>-->
-		<a href="/about" on:click={handleClick}>About</a>
+	<a href="/" on:click={handleClick}>Blog</a>
+	<!-- <a href="/infographics" on:click={handleClick}>Infographics</a>-->
+	<a href="/about" on:click={handleClick}>About</a>
 </div>
 
-<div class="section-split-auto inline-container ">
+<div class="section-split-auto inline-container">
 	<div class="menu-lg">
 		<ul>
 			<li><a href="/">Blog</a></li>

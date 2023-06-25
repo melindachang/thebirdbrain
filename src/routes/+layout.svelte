@@ -15,7 +15,7 @@
 </main>
 
 <style lang="sass">
-@use '../sass/variables'
+@use '@sass/variables'
 
 :global(html)
   font-size: 62.5%

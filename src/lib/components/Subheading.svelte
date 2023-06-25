@@ -27,5 +27,5 @@
         @media screen and ( min-width: variables.$breakpoint-lg )
           padding-top: 0
 
-        
+
 </style>
