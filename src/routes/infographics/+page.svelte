@@ -1,8 +1,8 @@
 <script>
 	export let data;
 
-	import PageHeadline from '../../lib/components/PageHeadline.svelte';
-	import Collection from '../../lib/components/Collection.svelte';
+	import PageHeadline from '@lib/components/PageHeadline.svelte';
+	import Collection from '@lib/components/Collection.svelte';
 </script>
 
 <svelte:head>

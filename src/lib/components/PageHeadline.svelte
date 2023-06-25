@@ -13,7 +13,7 @@
 </div>
 
 <style lang="sass">
-  @use '../../sass/variables'
+  @use '@sass/variables'
   
   .headline-wrapper
     padding: 4rem

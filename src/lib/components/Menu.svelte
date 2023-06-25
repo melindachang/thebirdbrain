@@ -1,12 +1,8 @@
 <script>
 </script>
 
-
-
 <div class="section-split-auto inline-container">
-    <div class="menu-sm">
-        img
-    </div>
+	<div class="menu-sm">img</div>
 	<div class="menu-lg">
 		<ul>
 			<li><a href="/">Blog</a></li>
@@ -17,7 +13,7 @@
 </div>
 
 <style lang="sass">
-  @use '../../sass/variables'
+  @use '@sass/variables'
   
   .menu-sm
     @media screen and ( min-width: variables.$breakpoint-lg )
