@@ -9,6 +9,10 @@
 		content="Welcome to The Birdbrain! I'm a 17-year-old high school student from California. This
 		website is part of a side project that I started to learn about birds."
 	/>
+	<meta name="robots" content="index, follow" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="English" />
+	<meta name="author" content="Melinda Chang" />
 </svelte:head>
 
 <div class="sections">

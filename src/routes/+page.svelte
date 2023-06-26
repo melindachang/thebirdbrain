@@ -7,10 +7,19 @@
 
 <svelte:head>
 	<title>The Birdbrain</title>
+	<meta name="title" content="The Birdbrain" />
 	<meta
 		name="description"
 		content="The Birdbrain is a blog dedicated to the examination and appreciation of all things birds!"
 	/>
+	<meta
+		name="keywords"
+		content="bird,birding,birdwatching,birds,wildlife,blog,bird blog,birding blog,ornithology,ornithology blog,bird news,melinda chang"
+	/>
+	<meta name="robots" content="index, follow" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="English" />
+	<meta name="author" content="Melinda Chang" />
 </svelte:head>
 
 <div class="sections">

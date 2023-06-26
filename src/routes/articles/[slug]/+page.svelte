@@ -7,7 +7,17 @@
 
 <svelte:head>
 	<title>{data.title}</title>
+	<meta name="title" content={data.title} />
 	<meta name="description" content={data.snippet} />
+	<meta name="robots" content="index, follow" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="English" />
+	<meta name="author" content="Melinda Chang" />
+	<meta
+		name="keywords"
+		content={data.title +
+			',bird,birding,birdwatching,birds,wildlife,blog,bird blog,birding blog,ornithology,ornithology blog,bird news,melinda chang'}
+	/>
 </svelte:head>
 
 <article>
