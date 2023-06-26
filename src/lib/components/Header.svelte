@@ -64,6 +64,8 @@
         background: white
         width: 100%
         transition: all .35s ease
+        @media screen and ( min-width: variables.$breakpoint-xl )
+            width: calc(90vw - 2px)
 
         &.hidden
             top: -13rem
