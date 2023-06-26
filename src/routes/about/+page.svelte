@@ -31,9 +31,9 @@
 				it has for me, or that you come away with something interesting to chew on.
 			</p>
 			<p>
-				Other interests&mdash;I like computer science, particularly web programming and systems
-				software. I write open-source JavaScript libraries, mostly. I also do amateur astronomy and
-				watch an unreasonable amount of movies.
+				Other interests: I like computer science, particularly human-computer interaction and
+				programming languages. I also do amateur astronomy and watch an unreasonable amount of
+				movies.
 			</p>
 		</div>
 		<div class="section image">
@@ -56,7 +56,7 @@
 					>.
 				</li>
 				<li>
-					I much prefer markdown to HTML, so I use MDsveX to put out article content. Those files
+					I prefer markdown to HTML, so I use MDsveX to put out article content. Those files
 					programmatically populate the article layout and the blog feed. There's a JSON file that
 					creates the infographic gallery that I want to get rid of at some point.
 				</li>
