@@ -38,7 +38,7 @@
 				alt="Chestnut-backed chickadee in a tree"
 				title="Source: eBird"
 			/>
-			<p class="caption">The chestnut-backed chickadee, my favorite bird!</p>
+			<p class="caption">The chestnut-backed chickadee, one of my favorite birds!</p>
 		</div>
 	</div>
 	<div class="section-split">
