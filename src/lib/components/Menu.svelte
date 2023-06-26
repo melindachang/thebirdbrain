@@ -1,5 +1,5 @@
 <script>
-	let active = false;
+	export let active;
 	const handleClick = () => (active = !active);
 </script>
 

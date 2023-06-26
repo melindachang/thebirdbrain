@@ -1,15 +1,14 @@
 <script>
 	import '../app.sass';
-
-	// import { Svrollbar } from 'svrollbar';
-
 	import Header from '../lib/components/Header.svelte';
 	import Footer from '../lib/components/Footer.svelte';
+
+  let menuActive = false;
 </script>
 
 <main>
 	<!-- <Svrollbar /> -->
-	<Header />
+	<Header bind:active={menuActive} />
   <div class="header-placeholder"></div>
   <main class="content">
   	<slot />

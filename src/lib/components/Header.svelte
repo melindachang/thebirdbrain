@@ -3,13 +3,15 @@
 	import Search from './Search.svelte';
 	import Menu from './Menu.svelte';
 
+	let menuActive = false;
+
 	let screenSize,
 		scrollY,
 		hidden = false,
 		prevY = 0;
 
 	const handleScroll = () => {
-		const newVal = scrollY > prevY && scrollY > 130 && screenSize < 1200;
+		const newVal = scrollY > prevY && scrollY > 130 && screenSize < 1200 && !menuActive;
 		prevY = scrollY;
 		if (hidden === newVal) return;
 		hidden = newVal;
@@ -29,7 +31,7 @@
 			/>
 			<h1>The Birdbrain</h1>
 		</a>
-		<Menu />
+		<Menu bind:active={menuActive} />
 	</div>
 	<div class="container-lower section-split section-split-auto">
 		<div class="nowplaying">
