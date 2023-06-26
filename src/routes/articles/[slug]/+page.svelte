@@ -28,6 +28,9 @@
 </article>
 
 <style lang="sass">
-  article
-    border-bottom: 1px solid black
+	@use '@sass/variables'
+
+	article
+		@media screen and ( min-width: variables.$breakpoint-lg )
+			border-bottom: 1px solid black
 </style>

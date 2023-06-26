@@ -25,7 +25,7 @@
 </div>
 
 <style lang="sass">
-  @use '../../sass/_variables'
+  @use '@sass/variables'
 
   .mobile-links
     display: none
