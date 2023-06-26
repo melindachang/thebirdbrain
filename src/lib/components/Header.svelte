@@ -2,9 +2,23 @@
 	import NowPlaying from './NowPlaying.svelte';
 	import Search from './Search.svelte';
 	import Menu from './Menu.svelte';
+
+	let screenSize,
+		scrollY,
+		hidden = false,
+		prevY = 0;
+
+	const handleScroll = () => {
+		const newVal = scrollY > prevY && scrollY > 130 && screenSize < 1200;
+		prevY = scrollY;
+		if (hidden === newVal) return;
+		hidden = newVal;
+	};
 </script>
 
-<div class="wrapper-header">
+<svelte:window on:scroll={handleScroll} bind:innerWidth={screenSize} bind:scrollY />
+
+<div class="wrapper-header" class:hidden>
 	<div class="container-header section-split section-split-auto">
 		<a class="logo" href="/">
 			<lottie-player
@@ -42,7 +56,16 @@
         white-space: nowrap
 
     .wrapper-header
+        top: 0
         z-index: 20
+        position: fixed
+        background: white
+        width: 100%
+        transition: all .35s ease
+
+        &.hidden
+            top: -13rem
+
         .container-lower
             border-bottom: 1px solid black
             display: flex

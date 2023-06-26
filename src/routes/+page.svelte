@@ -31,3 +31,6 @@
 		<ArticleCard {article} />
 	{/each}
 </div>
+
+<style lang="sass">
+</style>

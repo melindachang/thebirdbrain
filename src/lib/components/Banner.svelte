@@ -10,8 +10,9 @@
 </div>
 
 <style lang="sass">
+  @use '@sass/variables'
   .hero 
-    max-height: 100vh
+    max-height: calc(100vh - variables.$header-height)
     width: 100%
     // background-size: cover
     // background-repeat: no-repeat
