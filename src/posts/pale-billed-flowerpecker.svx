@@ -7,7 +7,7 @@ source: "Melvin Jaison"
 source_url: "https://www.inaturalist.org/observations/46063460"
 image: "https://inaturalist-open-data.s3.amazonaws.com/photos/73062141/original.jpg"
 snippet: "English-speaking North America did not, until the 19th century, regard chickadees as a discrete group from titmice—the Cherokee Indian name \"tsigili'i\" predates the English \"chickadee\" considerably. The etymology of \"chickadee\" is likely onomatopoeic, although whether that word manages to emulate their idiosyncratic alarm cal with any accuracy is a different matter. Their successive \"dee\" sounds increase with the magnitude of perceived danger."
-published: false
+published: true
 ---
 English-speaking North America did not, until the 19th century, regard chickadees as a discrete group from titmice—the Cherokee Indian name "tsigili'i" predates the English "chickadee" considerably. The etymology of "chickadee" is likely onomatopoeic, although whether that word manages to emulate their idiosyncratic [alarm call](https://www.youtube.com/watch?v=d8oW5DqPGCA) with any accuracy is a different matter. Their successive "dee" sounds increase with the magnitude of perceived danger.
 
