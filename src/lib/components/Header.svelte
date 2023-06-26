@@ -43,6 +43,9 @@
 
     .wrapper-header
         z-index: 20
+        position: fixed
+        background: white
+        width: 100%
         .container-lower
             border-bottom: 1px solid black
             display: flex
