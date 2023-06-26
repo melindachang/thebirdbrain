@@ -2,19 +2,25 @@
 	export let src, source, source_url;
 </script>
 
-<div class="hero" style={`background-image:url(${src})`} />
+<div class="hero">
+	<img {src} alt="" />
+</div>
 <div class="caption">
 	Source: <a href={source_url} target="_blank" rel="noreferrer">{source}</a>
 </div>
 
 <style lang="sass">
   .hero 
-    height: 75vh
+    max-height: 100vh
     width: 100%
-    background-size: cover
-    background-repeat: no-repeat
-    background-position: center center
+    // background-size: cover
+    // background-repeat: no-repeat
+    // background-position: center center
+    overflow: hidden
     position: relative
+
+    img
+      width: 100%
 
   .caption
     font-size: 1.2rem

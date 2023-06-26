@@ -36,7 +36,9 @@
         font-size: 9.6rem
 
     &.md
-      font-size: 4.8rem
+      font-size: 3.2rem
+      @media screen and ( min-width: variables.$breakpoint-lg )
+        font-size: 4.8rem
       
 
 </style>

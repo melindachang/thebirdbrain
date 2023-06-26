@@ -7,7 +7,6 @@
 <div class="wrapper-header">
 	<div class="container-header section-split section-split-auto">
 		<a class="logo" href="/">
-			<!-- <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_yaxlf0vy.json" background="transparent" speed="0.5" loop autoplay /> -->
 			<lottie-player
 				src="https://assets7.lottiefiles.com/packages/lf20_h5njm9gv.json"
 				background="transparent"

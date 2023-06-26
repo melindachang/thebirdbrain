@@ -3,9 +3,9 @@ title: "Chestnut-backed Chickadee"
 date: "2023-02-25"
 author: "Melinda Chang"
 layout: "article"
-image: "https://wsmag.net/wp-content/uploads/2020/09/Birds_A_WHG20E.jpg"
-source: "wsmag.net"
-source_url: "https://wsmag.net/the-garden/2020-09-11/cherish-the-charming-chickadees/"
+image: "https://static.inaturalist.org/photos/64922889/original.jpg"
+source: "Mason Maron"
+source_url: "https://www.inaturalist.org/photos/64922889"
 snippet: "English-speaking North America did not, until the 19th century, regard chickadees as a discrete group from titmice—the Cherokee Indian name \"tsigili'i\" predates the English \"chickadee\" considerably. The etymology of \"chickadee\" is likely onomatopoeic, although whether that word manages to emulate their idiosyncratic alarm cal with any accuracy is a different matter. Their successive \"dee\" sounds increase with the magnitude of perceived danger."
 published: true
 ---
