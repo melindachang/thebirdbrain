@@ -1,0 +1,22 @@
+---
+title: "Burrowing Owl"
+date: "2023-03-01"
+author: "Melinda Chang"
+layout: "article"
+source: "vero-quercia"
+source_url: "https://www.inaturalist.org/observations/125295322"
+image: "https://inaturalist-open-data.s3.amazonaws.com/photos/212470835/original.jpeg"
+snippet: "Burrowing owls (Athene cunicularia) are so called because of the underground nests within which they reside. These owls have a broad geographic distribution across North and South America, with populations in open grasslands, deserts, agricultural fields, and even urban areas (albeit with less frequency). They can be found in the southwestern United States through Central America, and down to parts of South America, including Argentina and Brazil."
+published: true
+---
+**Burrowing owls** (*Athene cunicularia*) are so called because of the underground nests within which they reside. There exist a number of recognized burrowing owl subspecies. These include but are not limited to:
+
+- Western burrowing owl (*A. c. hypugaea*) - native to central and western North America
+- Florida burrowing owl (*A. c. floridana*) - native to Florida and parts of the Caribbean
+- Southern burrowing owl (*A. c. cunicularia*) - native to South American lowlands
+
+Burrowing owls have a broad geographic distribution across North and South America, with populations in open grasslands, deserts, agricultural fields, and even urban areas (albeit with less frequency). They can be found in the southwestern United States through Central America, and down to parts of South America, including Argentina and Brazil.
+
+With the exception of the Florida subspecies, these owls do not commonly excavate their own burrows—they instead take over unoccupied homes left behind by prairie dogs, ground squirrels, and other animals that share their habitat. They are, however, known to "customize" their burrows with all manner of debris for reasons ornithologists [have yet to elucidate fully](https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1580&context=usgsstaffpub). Some burrowing owls' decorative tastes purportedly extend to cigarette butts and Barbie dolls.
+
+As opportunistic hunters, burrowing owls have a varied diet that consists chiefly of small mammals, although they do consume reptiles, amphibians, birds, and small fish where available. They are diurnal, which is rather uncommon for owls, and they use their keen vision and hearing to locate prey from elevated perches near their burrows.
