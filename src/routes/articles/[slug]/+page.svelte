@@ -33,4 +33,8 @@
 	article
 		@media screen and ( min-width: variables.$breakpoint-lg )
 			border-bottom: 1px solid black
+
+	:global(hr)
+		margin: 5rem 0
+
 </style>

@@ -20,3 +20,10 @@ Burrowing owls have a broad geographic distribution across North and South Ameri
 With the exception of the Florida subspecies, these owls do not commonly excavate their own burrows—they instead take over unoccupied homes left behind by prairie dogs, ground squirrels, and other animals that share their habitat. They are, however, known to "customize" their burrows with all manner of debris for reasons ornithologists [have yet to elucidate fully](https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1580&context=usgsstaffpub). Some burrowing owls' decorative tastes purportedly extend to cigarette butts and Barbie dolls.
 
 As opportunistic hunters, burrowing owls have a varied diet that consists chiefly of small mammals, although they do consume reptiles, amphibians, birds, and small fish where available. They are diurnal, which is rather uncommon for owls, and they use their keen vision and hearing to locate prey from elevated perches near their burrows.
+
+---
+
+# Further Reading
+- Martin, D. J. (1973). Selected Aspects of Burrowing Owl Ecology and Behavior. *The Condor*, 75(4), 446-456. https://doi.org/10.2307/1366565
+- Smith, M. D., &amp; Conway, C. J. (2011). Collection of mammal manure and other debris by nesting burrowing owls. *Journal of Raptor Research*, 45(3), 220-228. https://doi.org/10.3356/jrr-10-63.1
+- Martin, D. J. (1973). A Spectrographic Analysis of Burrowing Owl Vocalizations. *The Auk*, 90(3), 564-578. https://doi.org/10.2307/4084155
