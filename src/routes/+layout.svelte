@@ -1,19 +1,15 @@
 <script>
 	import '../app.sass';
-
-	// import { Svrollbar } from 'svrollbar';
-
 	import Header from '../lib/components/Header.svelte';
 	import Footer from '../lib/components/Footer.svelte';
 </script>
 
 <main>
-	<!-- <Svrollbar /> -->
 	<Header />
-  <div class="header-placeholder"></div>
-  <main class="content">
-  	<slot />
-  </main>
+	<div class="header-placeholder" />
+	<main class="content">
+		<slot />
+	</main>
 	<Footer />
 </main>
 
